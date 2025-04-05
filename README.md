@@ -3,6 +3,7 @@
 ## Introduction
 
 This project documents how to create a 
+
 ## Step-by-Step Guide
 ### 1. Provisioning Azure Resources
 - Create a storage account
@@ -12,7 +13,6 @@ This project documents how to create a
 ### 2. Configuring Key Vault
 - Under Settings >> Access Configuration, use 'Vault access policy'
 - Provide Secret permissions to yourself (not the Databricks service principal)
-
 
 ### 3. Setting up a Service Principal
 - Register a new application (e.g databricks-service-principal) in Microsoft Entra ID
@@ -29,8 +29,7 @@ This project documents how to create a
 
 ### 6. Configuring Azure Databricks
 - Create secret scope
-- Import the dbc file in the src folder
-
+- Download and import the dbc file (in the src folder) to the databricks workspace
 
 ## Services Used
 
@@ -40,6 +39,10 @@ This project documents how to create a
 
 ## Architecture Diagram
 
-## Security
+<img width="656" alt="image" src="https://github.com/user-attachments/assets/94112a2f-f6af-42ca-a0d5-3bed0b7d3a82" />
 
-- 
+
+## Resources
+
+- [DP-203: 33 - Connecting to ADLSg2 from Azure Databricks][https://www.youtube.com/watch?v=GEh4D7tq3nU&list=PLuQSde7Xvu7DCRenR1otgxAplTtnzKO9e&index=34&t=1017s&ab_channel=TybulonAzure]
+- [Databricks documentation on Secret Scope][https://docs.databricks.com/aws/en/security/secrets/?language=Databricks%C2%A0workspace%C2%A0UI]
