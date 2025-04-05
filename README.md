@@ -37,11 +37,6 @@ This project documents how to use Kaggle API to extract datasets using Databrick
 - Azure Data Lake Storage Gen 2
 - Azure Key Vault
 
-## Architecture Diagram
-
-<img width="656" alt="image" src="https://github.com/user-attachments/assets/94112a2f-f6af-42ca-a0d5-3bed0b7d3a82" />
-
-
 ## Resources
 
 - [DP-203: 33 - Connecting to ADLSg2 from Azure Databricks](https://www.youtube.com/watch?v=GEh4D7tq3nU&list=PLuQSde7Xvu7DCRenR1otgxAplTtnzKO9e&index=34&t=1017s&ab_channel=TybulonAzure)
