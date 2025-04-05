@@ -22,7 +22,7 @@ This project documents how to use Kaggle API to extract datasets using Databrick
 
 ### 3. Setting up a Service Principal
 - Register a new application (e.g databricks-service-principal) in Microsoft Entra ID
-- Go to the storage account and provide a Storage Data Contributor role to the Service Principal
+- Go to the storage account and provide a Storage Blob Data Contributor role to the Service Principal
 
 ### 4. Setting up Kaggle API token
 - Go to your Kaggle profile setting and create a new token
