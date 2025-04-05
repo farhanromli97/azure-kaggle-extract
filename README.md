@@ -4,6 +4,12 @@
 
 This project documents how to use Kaggle API to extract datasets using Databricks and load into Azure Data Lake Storage Gen 2
 
+## Services Used
+
+- Azure Databricks
+- Azure Data Lake Storage Gen 2
+- Azure Key Vault
+
 ## Getting Started
 ### 1. Provisioning Azure Resources
 - Create a storage account
@@ -30,12 +36,6 @@ This project documents how to use Kaggle API to extract datasets using Databrick
 ### 6. Configuring Azure Databricks
 - Create secret scope
 - Download and import the dbc file (in the src folder) to the databricks workspace
-
-## Services Used
-
-- Azure Databricks
-- Azure Data Lake Storage Gen 2
-- Azure Key Vault
 
 ## Resources
 
